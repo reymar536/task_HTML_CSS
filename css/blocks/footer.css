@@ -1,0 +1,6 @@
+@charset 'UTF-8';
+.footer{
+  border-top: 1px solid #606060;
+  text-align: left;
+  font-size: 14px;
+}

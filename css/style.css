@@ -5,11 +5,11 @@ body {
     color: #222;
     background-color: #F8F8F8;
 }
-header{
+.header{
     border-bottom: 1px solid #606060;
 }
 
-footer{
+.footer{
     border-top: 1px solid #606060;
     text-align: left;
     font-size: 14px;

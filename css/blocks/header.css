@@ -1,0 +1,26 @@
+@charset 'UTF-8';
+.header {
+    border-bottom: 1px solid #606060;
+    display: flex;
+}
+
+.logo {
+    background-image: url(../../img/logo/logo.jpg);
+    width: 300px;
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 10px;
+}
+
+/*
+.main_menu{
+    display: table-cell;
+    height:  100px;
+    width: 300px;
+    vertical-align:  middle;
+    text-align: right;
+    position: relative;
+    left: 10px;
+}*/

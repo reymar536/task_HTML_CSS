@@ -1,0 +1,27 @@
+@charset 'UTF-8';
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Californian FB', Arial, Helvetica, sans-serif; 
+    color: #222;
+    background-color: #F8F8F8;
+}
+
+body, html {
+    height: 100%;
+}
+  
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1060px;
+}
+

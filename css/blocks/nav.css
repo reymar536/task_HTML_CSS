@@ -1,0 +1,19 @@
+@charset 'UTF-8';
+.nav_menu {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: oblique;
+    font-family: 'Californian FB', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: space-around;
+}   
+
+.nav_menu a:hover {
+    background: #786b59; 
+    color: #ffe; 
+} 
+
+.nav_menu a:link {
+    color:inherit;
+    padding: 2px; 
+} 

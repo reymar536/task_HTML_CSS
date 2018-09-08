@@ -1,0 +1,10 @@
+@charset 'UTF-8';
+/* layout */
+@import url('./layout/base.css');
+@import url('./layout/catalog.css');
+@import url('./layout/contact.css');
+/* blocks */
+@import url('./blocks/header.css');
+@import url('./blocks/nav.css');
+@import url('./blocks/main-page.css');
+@import url('./blocks/footer.css');
