@@ -1,0 +1,127 @@
+@charset 'UTF-8';
+
+body {
+    font-family: 'Californian FB', Arial, Helvetica, sans-serif; 
+    color: #222;
+    background-color: #F8F8F8;
+}
+header{
+    border-bottom: 1px solid #606060;
+}
+
+footer{
+    border-top: 1px solid #606060;
+    text-align: left;
+    font-size: 14px;
+}
+
+.logo {
+    background-image: url(logo.jpg);
+    width: 300px;
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav_menu {
+    font-size: 20px;
+    font-weight: bold;
+    list-style-type: none;
+    font-style: oblique;
+    font-family: 'Californian FB', 'Arial Narrow', Arial, sans-serif;
+}   
+
+.nav_menu a:hover {
+    background: #786b59; 
+    color: #ffe; 
+} 
+
+.nav_menu a:link, a:visited {
+    color:inherit;
+    padding: 2px; 
+} 
+
+.tovar_image:hover{
+    outline: none;
+}
+
+.tovar_image{
+    outline: 3px solid black;
+}
+
+.tovar_heading_top{
+    color:black;
+    font-size: 24px;    
+    font-weight: bold;
+}
+
+.tovar_heading{
+    color:black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+.tovar_short_description{
+    color: #707070;;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.tovar_full_description{
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 20px;
+    text-align: left; 
+}
+
+.tovar_chars{
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 20px;
+    font-style: normal;
+    list-style-image: url(note.png);
+}
+
+input:not([type=submit]){
+    color: green;
+    font-size: 16px;
+    font-style: normal;
+    width: 200px;
+    height: 20px;
+}
+
+input[type="text"]{
+    text-transform: capitalize;      
+}
+
+input[type="email"]:focus{
+    color: #f00;
+    background-color: blue;
+}
+
+.tovar_short_description:first-letter, .tovar_full_description::first-letter{
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 30px;
+    color:#f00;
+}
+
+.char_table{
+    width: 500px;
+    border-collapse: collapse; 
+}
+
+.char_table th{
+    color: black;
+    background-color: #c6c6c6; 
+    height: 50px;
+}
+
+.char_table td, th { 
+    border: 1px solid gray; 
+}
