@@ -2,6 +2,7 @@
 /* layout */
 @import url('./layout/base.css');
 @import url('./layout/catalog.css');
+@import url('./layout/catalog_item.css');
 @import url('./layout/contact.css');
 /* blocks */
 @import url('./blocks/header.css');

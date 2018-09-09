@@ -1,0 +1,109 @@
+@charset 'UTF-8';
+
+.tovar_image:hover {
+    outline: none;
+}
+
+.tovar_image {
+    outline: 3px solid black;
+    margin-right: 10px;
+}
+
+.tovar_image_div{
+    float: left;
+}
+
+.tovar_chars_div{
+    clear:both;
+}
+
+.tovar_heading_top {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.tovar_heading {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+.tovar_short_description {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+    margin-right: 10px;
+}
+
+.buy_button {
+    border: 1px solid #000000;
+    height: 50px;
+    width:250px;
+    margin-right: 10px;
+    color: #484343; 
+}
+
+.buy_button button{
+    height: 100%;
+    width: 100%;
+}
+
+
+.buy_button button:hover {
+    color: blue ;
+}
+
+.tovar_description{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}    
+
+.tovar_full_description {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 20px;
+    text-align: left;
+}
+
+.tovar_chars {
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 20px;
+    font-style: normal;
+    list-style-image: url(../../img/icons/note.png);
+}
+
+.tovar_chars li {
+    margin-left: 40px;
+}
+
+.tovar_short_description:first-letter,
+.tovar_full_description::first-letter {
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #f00;
+}
+
+.char_table {
+    width: 500px;
+    border-collapse: collapse;
+}
+
+.char_table th {
+    color: black;
+    background-color: #c6c6c6;
+    height: 50px;
+}
+
+.char_table td,
+th {
+    border: 1px solid gray;
+}
