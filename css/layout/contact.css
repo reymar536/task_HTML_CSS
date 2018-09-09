@@ -1,6 +1,6 @@
 @charset 'UTF-8';
 
-input:not([type=submit]){
+input:not([type=submit]) {
     color: green;
     font-size: 16px;
     font-style: normal;
@@ -8,11 +8,11 @@ input:not([type=submit]){
     height: 20px;
 }
 
-input[type="text"]{
-    text-transform: capitalize;      
+input[type="text"] {
+    text-transform: capitalize;
 }
 
-input[type="email"]:focus{
+input[type="email"]:focus {
     color: #f00;
     background-color: blue;
 }
